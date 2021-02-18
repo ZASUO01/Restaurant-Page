@@ -1,0 +1,1 @@
+# A landding page for a generic restaurant using tailwind css
