@@ -7,17 +7,21 @@ module.exports = {
         filename: 'main.js'
     },
     devtool: 'inline-source-map',
-    module:{
-        rules:[
+    module: {
+        rules: [
             {
-                test: /\.css$/,
+                test: /\.(jpg|png)$/,
+                loader: 'file-loader',
+                options: {
+                    outputPath : 'assets'
+                }
+            },
+            {
+                test: /\.scss$/,
                 use: [
                     'style-loader',
-                    {
-                        loader: 'css-loader',
-                        options: {importLoaders: 1}
-                    },
-                    'postcss-loader'
+                    'css-loader',
+                    'sass-loader'
                 ]
             },
             {

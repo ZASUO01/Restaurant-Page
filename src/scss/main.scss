@@ -1,0 +1,9 @@
+//fontawesome
+$fa-font-path : '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/css/all.css';
+//font ubuntu
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+@import 'base';
+@import 'home';
+@import 'menu';

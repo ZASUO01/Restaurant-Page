@@ -1,1 +1,1 @@
-# A landding page for a generic restaurant using tailwind css
+# A landing page for the Zasuo's cafe.
