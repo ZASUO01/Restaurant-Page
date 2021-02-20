@@ -7,11 +7,10 @@
 
     .menu-paper{
         width: 80%;
-        background-color: #1c1c1c;
+        border: 1px solid white;
         padding: 20px;
-        border-radius: 20px;
 
-        h1{
+        .paper-title{
             color: #c9c9c9;
             font-size: 45px;
             text-transform: uppercase;
@@ -28,11 +27,13 @@
                 width: 90%;
                 padding: 0 20px;
                 margin-bottom: 15px;
+                
                 h1{
                     font-size: 25px;
-                    font-weight: 500;
+                    font-weight: 400;
                     text-transform: initial;
                     margin-bottom: 10px;
+                    color: #c9c9c9;
                 }
     
                 p{

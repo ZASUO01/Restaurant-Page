@@ -1,0 +1,22 @@
+{
+    "Drinks": [
+      {"name": "Coffee", "price": "R$ 2.50"},
+      {"name": "Green Tea", "price": "R$ 3.20"},
+      {"name": "Soda can", "price": "R$ 4.50"},
+      {"name": "Energy drink", "price": "R$ 5.00"},
+      {"name": "Beer can", "price": "R$ 5.00"}
+    ],
+    "Deserts": [
+        {"name": "Lemon Tart (piece)", "price": "R$ 5.20"},
+        {"name": "Chocolate cake (piece)", "price": "R$ 4.20"},
+        {"name": "Cup cake", "price": "R$4.50"},
+        {"name": "Ice cream", "price": "R$ 2.50"}
+    ],
+    "Lunchs": [
+        {"name": "Mini-Pizza", "price": "R$ 6.50"},
+        {"name": "Fries bucket", "price": "R$ 10.00"},
+        {"name": "Hot dog", "price": "R$ 6.00"},
+        {"name": "Special soup", "price": "R$ 11.00"},
+        {"name": "Fried Chicken", "price:": "R$ 9.00"}
+    ]
+}
