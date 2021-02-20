@@ -51,3 +51,61 @@
         }
     }
 }
+
+
+@media screen and (max-width:870px){
+    .menu-content{
+        .menu-paper{
+            width: 90%;
+    
+            .paper-title{
+                font-size: 35px;
+            }
+    
+            .paper-contents{
+                grid-template-columns: repeat(2, 1fr);
+                
+                .category-single{
+                    width: 100%;
+                    margin-bottom: 30px;
+                    
+                    h1{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:560px){
+    .menu-content{
+        .menu-paper{
+            width: 90%;
+    
+            .paper-title{
+                font-size: 30px;
+            }
+    
+            .paper-contents{
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                
+                .category-single{
+                    width: 100%;
+                    margin-bottom: 40px;
+                    
+                    h1{
+                        font-size: 20px;
+                    }
+        
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    } 
+}

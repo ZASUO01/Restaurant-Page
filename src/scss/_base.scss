@@ -65,7 +65,7 @@ body{
             transition: .3s;
 
             &:hover{
-                border-bottom: 2px solid #e6e610;
+                border-bottom: 2px solid #b4d132;
             }
         }
     }
@@ -110,6 +110,65 @@ footer{
 }
 
 .active-tab{
-    border-bottom: 2px solid #e6e610 !important;
-    color: #e6e610 !important;
+    border-bottom: 2px solid #b4d132 !important;
+    color: #b4d132 !important;
 }
+
+@media screen  and(max-width: 870px){
+    .tabs-container{
+        padding: 15px;
+        justify-content: center;
+       
+        ul{
+        
+            li{
+                padding: 15px 0;
+                width: 120px;
+            }
+        }
+    }
+    
+    .page-display{
+        padding: 80px 0;
+    }
+    
+    footer{
+        padding: 20px 0;
+    
+        h1{
+            font-size: 20px;
+        }
+    } 
+}
+
+
+
+@media screen and (max-width: 560px){
+    .tabs-container{
+        padding: 10px;
+        justify-content: center;
+       
+    
+        ul{
+            li{
+                padding: 10px 0;
+                color: white;
+                width: 80px;
+                font-size: 15px;
+            }
+        }
+    }
+
+    .page-display{
+        padding: 70px 0;
+    }
+
+    footer{
+        padding: 17px 0;
+    
+        h1{
+            font-size: 17px;
+        }
+    }
+}
+

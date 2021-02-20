@@ -79,3 +79,70 @@
 
     }
 }
+
+@media screen and(max-width:870px){
+    .contact-content{
+        padding: 0;
+    
+        form{
+            width: 80%;
+        
+            .info{
+    
+                p{
+                    font-size: 17px;
+                }
+            }
+        
+            h1{
+                font-size: 23px;
+                margin-bottom: 20px;
+            }
+    
+            
+            textarea{
+                margin-bottom: 30px;
+            }
+    
+            input[type="submit"]{
+                width: 80%;
+            }
+    
+        }
+    }
+}
+
+@media screen and(max-width:560px){
+    .contact-content{
+        padding: 0;
+    
+        form{
+            width: 90%;
+        
+            .info{
+    
+                p{
+                    font-size: 17px;
+                }
+            }
+        
+            h1{
+                font-size: 21px;
+                margin-bottom: 20px;
+            }
+    
+            input[type="text"]{
+                margin-bottom: 20px;
+            }
+            
+            textarea{
+                margin-bottom: 20px;
+            }
+    
+            input[type="submit"]{
+                width: 90%;
+            }
+    
+        }
+    }
+}
