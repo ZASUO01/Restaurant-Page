@@ -1,0 +1,42 @@
+.about-content{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+
+    h1{
+        font-size: 40px;
+        font-weight: 700;
+        color: #b4d132;;
+        margin-bottom: 20px;
+    }
+
+    .about-description{
+        border-top: 2px solid #d6d6d6;
+        border-bottom: 2px solid #d6d6d6;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding: 20px 0;
+
+        p{
+            text-align: justify;
+            width: 40%;
+            max-width: 600px;
+            font-size: 21px;
+            color: #d6d6d6;
+            font-weight: 300;
+        }
+    
+        img{
+            width: 40%;
+            max-width: 450px;
+            border: 3px solid #696969;
+        }
+    }
+
+   
+}

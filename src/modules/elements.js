@@ -1,4 +1,4 @@
-const createDomElement = (tag, id, classList, content) => {
+const createDomElement = (tag, id, classList, content , attrs=null) => {
     const element = document.createElement(tag);
     if(id) element.id = id;
     if(classList){
@@ -7,6 +7,11 @@ const createDomElement = (tag, id, classList, content) => {
         });
     }
     if(content) element.textContent = content;
+    if(attrs) {
+        attrs.forEach(attr=>{
+            element.setAttribute(attr.name, attr.value);
+        })
+    }
 
     return element;
 }
