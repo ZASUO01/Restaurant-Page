@@ -12,7 +12,7 @@ const aboutLoad = () => {
 
     const aboutDescription = createDomElement('div',  null, ['about-description'], null);
     const aboutP = createDomElement('p', null, null,  desc);
-    const aboutImg = createDomElement('img', null, null, null, [{name:"src", value:"../src/assets/photo.jpg"}]);
+    const aboutImg = createDomElement('img', null, null, null, [{name:"src", value:"./assets/photo.jpg"}]);
 
     appendElements(aboutDescription, [aboutP, aboutImg]);
     appendElements(aboutContent, [aboutH1, aboutDescription]);
